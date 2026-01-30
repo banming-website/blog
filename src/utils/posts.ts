@@ -59,7 +59,7 @@ export const getBlogPosts = cache(async (page = 1) => {
         tags: allTags,
         category: p.category,
         coverImage: null,
-        author: 'Shuakami',
+        author: 'Banming',
         content: '',
         wordCount: p.wordCount,
         source: 'obsidian',

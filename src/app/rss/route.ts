@@ -8,7 +8,7 @@ export async function GET() {
   const site_url = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
   const feed = new RSS({
-    title: 'Shuakami',
+    title: 'Banming',
     description: '编程、创作、生活。Ciallo～(∠・ω< )⌒★',
     site_url,
     feed_url: `${site_url}/rss`,
@@ -23,7 +23,7 @@ export async function GET() {
       url: `${site_url}/post/${post.slug}`,
       date: new Date(post.date),
       categories: post.tags || [],
-      author: 'Shuakami',
+      author: 'Banming',
     });
   });
 
@@ -37,7 +37,7 @@ export async function GET() {
         url: `${site_url}/resources/${resource.slug}`,
         date: resource.lastUpdated ? new Date(resource.lastUpdated) : new Date(),
         categories: resource.tags || [],
-        author: 'Shuakami',
+        author: 'Banming',
       });
     });
 

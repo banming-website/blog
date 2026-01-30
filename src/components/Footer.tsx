@@ -5,9 +5,9 @@ import { Route } from "next"
 import { Github, Mail, Rss } from "lucide-react"
 
 const SOCIAL_LINKS = [
-  { name: "GitHub", href: "https://github.com/shuakami", icon: Github },
+  { name: "GitHub", href: "https://github.com/banming", icon: Github },
   { name: "RSS", href: "/rss", icon: Rss },
-  { name: "Email", href: "mailto:shuakami@sdjz.wiki", icon: Mail },
+  { name: "Email", href: "mailto:banming@sdjz.wiki", icon: Mail },
 ]
 
 export default function Footer() {
@@ -42,7 +42,7 @@ export default function Footer() {
           {/* 版权和备案 */}
           <div className="flex flex-col items-center gap-2 text-xs text-black/40 dark:text-white/40">
             <div className="flex items-center gap-3">
-              <span>© {currentYear} Shuakami</span>
+              <span>© {currentYear} Banming</span>
               <span>·</span>
               <a
                 href="https://beian.miit.gov.cn/"

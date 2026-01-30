@@ -33,28 +33,28 @@ const notoSansSC = Noto_Sans_SC({
 });
 
 export const metadata: Metadata = {
-  title: 'Shuakami',
+  title: 'Banming',
   description: '编程、创作、生活。Ciallo～(∠・ω< )⌒★',
-  keywords: ['Shuakami', '个人博客', '技术博客', '开源项目', 'Web开发', 'AI', 'Next.js'],
-  authors: [{ name: 'Shuakami', url: 'https://sdjz.wiki' }],
-  creator: 'Shuakami',
+  keywords: ['Banming', '个人博客', '技术博客', '开源项目', 'Web开发', 'AI', 'Next.js'],
+  authors: [{ name: 'Banming', url: 'https://sdjz.wiki' }],
+  creator: 'Banming',
   openGraph: {
     type: 'website',
     locale: 'zh_CN',
     url: 'https://sdjz.wiki',
-    title: 'Shuakami',
+    title: 'Banming',
     description: '编程、创作、生活。Ciallo～(∠・ω< )⌒★',
-    siteName: 'Shuakami',
+    siteName: 'Banming',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Shuakami',
+    title: 'Banming',
     description: '编程、创作、生活。Ciallo～(∠・ω< )⌒★',
     creator: '@luoxiaohei_',
   },
   icons: {
-    icon: '/shuakami.jpg',
-    apple: '/shuakami.jpg',
+    icon: '/banming.jpg',
+    apple: '/banming.jpg',
   },
 };
 
@@ -150,7 +150,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <MusicPlayerProvider>
-            <LayoutClient navItems={navItems} siteName="Shuakami">{children}</LayoutClient>
+            <LayoutClient navItems={navItems} siteName="Banming">{children}</LayoutClient>
             <GlobalMusicPlayer />
             <ChristmasEffect zIndex={0} showCursorHat={true} />
           </MusicPlayerProvider>
