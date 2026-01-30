@@ -1,0 +1,33 @@
+{
+  "site": {
+    "title": "Banming Blog",
+    "description": "技术博客与生活记录",
+    "url": "https://sdjz.wiki",
+    "author": "Banming",
+    "avatar": "/assets/images/avatar.jpg"
+  },
+  "navigation": [
+    {"name": "首页", "url": "/", "icon": "home"},
+    {"name": "归档", "url": "/archive", "icon": "archive"},
+    {"name": "作品", "url": "/works", "icon": "briefcase"},
+    {"name": "游戏", "url": "/games", "icon": "gamepad-2"},
+    {"name": "资源", "url": "/resources", "icon": "download"},
+    {"name": "音乐", "url": "/music", "icon": "music"},
+    {"name": "关于", "url": "/about", "icon": "user"},
+    {"name": "好兄弟们", "url": "/friends", "icon": "users"}
+  ],
+  "music": {
+    "playlistId": "8308939217",
+    "autoPlay": false
+  },
+  "appearance": {
+    "theme": "system",
+    "background": "character",
+    "layout": "default"
+  },
+  "footer": {
+    "icp": "",
+    "github": "https://github.com/banming",
+    "email": "contact@example.com"
+  }
+}

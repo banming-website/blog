@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(zip:*)",
+      "Bash(powershell -Command \"Compress-Archive -Path admin,api,content,includes,public,templates,*.php,.htaccess -DestinationPath blog-php74.zip -Force\")",
+      "Bash(unzip:*)",
+      "Bash(powershell -Command \"Compress-Archive -Path admin,api,content,includes,public,templates,*.php,.htaccess,DEPLOY-README.txt -DestinationPath blog-php74-deploy.zip -Force\")"
+    ]
+  }
+}
